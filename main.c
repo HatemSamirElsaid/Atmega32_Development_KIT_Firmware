@@ -24,9 +24,9 @@ int main ()
 
 
 	//Block2Start	HAL LED
-	LED_Init(LED0);
+	/*LED_Init(LED0);
 	LED_Init(LED1);
-	LED_Init(LED2);
+	LED_Init(LED2);*/
 	//Block2End
 	while (1)
 	{
@@ -60,7 +60,7 @@ int main ()
 
 
 		//Block2Start	HAL LED
-		LED_ON(LED0);
+		/*LED_ON(LED0);
 		_delay_ms(40);
 		LED_OFF(LED2);
 		_delay_ms(75);
@@ -71,7 +71,7 @@ int main ()
 		LED_ON(LED2);
 		_delay_ms(40);
 		LED_OFF(LED1);
-		_delay_ms(75);
+		_delay_ms(75);*/
 		//Block2End
 	}
 
