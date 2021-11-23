@@ -1,0 +1,11 @@
+LED0		PortC	2
+LED1		PortC	7
+LED2		PortD	3
+
+Buzzer		PortA	3
+
+Relay		PortA	3
+
+Button0		PortB	0
+Button1		PortB	4
+Button2		PortD	2
