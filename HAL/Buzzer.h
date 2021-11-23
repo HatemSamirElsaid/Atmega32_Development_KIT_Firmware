@@ -11,6 +11,7 @@
 #include "Buzzer_Config.h"
 
 //Buzzer Module Functions prototypes.
+void Buzzer_Init();
 void Buzzer_ON();
 void Buzzer_OFF();
 void Buzzer_TOGGLE();
