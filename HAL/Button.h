@@ -11,4 +11,10 @@
 #include "Button_Config.h"
 #include "Button_Types.h"
 
+//Button Module functions prototypes
+void Button_Init(Button_ID);
+Buttom_Status Button_READ(Button_ID);
+void Button_Pullup_Enable(Button_ID);
+void Button_Pullup_Disable(Button_ID);
+
 #endif /* HAL_BUTTON_H_ */
