@@ -31,19 +31,20 @@ int main ()
 
 
 	//Block3Start	HAL LED Buzzer
-		DIO_WRITE_STATUS(DIO_PORTC, DIO_PIN2, OTUPUT);//Button1
-		DIO_WRITE_STATUS(DIO_PORTC, DIO_PIN7, OTUPUT);//Button2
-		DIO_WRITE_STATUS(DIO_PORTD, DIO_PIN3, OTUPUT);//Button3
-		Buzzer_Init();
+	/*DIO_WRITE_STATUS(DIO_PORTC, DIO_PIN2, OTUPUT);//Button1
+	DIO_WRITE_STATUS(DIO_PORTC, DIO_PIN7, OTUPUT);//Button2
+	DIO_WRITE_STATUS(DIO_PORTD, DIO_PIN3, OTUPUT);//Button3
+	Buzzer_Init();
 
 
-		LED_Init(LED0);
-		LED_Init(LED1);
-		LED_Init(LED2);
-		Boolean Flag1 =FALSE;
-		Boolean Flag2 =FALSE;
-		Boolean Flag3 =FALSE;
-		//Block3End
+	LED_Init(LED0);
+	LED_Init(LED1);
+	LED_Init(LED2);
+	Boolean Flag1 =FALSE;
+	Boolean Flag2 =FALSE;
+	Boolean Flag3 =FALSE;*/
+	//Block3End
+
 	while (1)
 	{
 		//Block1Start	MCAL
@@ -91,7 +92,7 @@ int main ()
 		//Block2End
 
 		//Block3Start	HAL LED Buzzer
-		if (DIO_READ_LEVEL(DIO_PORTB, DIO_PIN0)==HIGH && Flag1==FALSE){
+		/*if (DIO_READ_LEVEL(DIO_PORTB, DIO_PIN0)==HIGH && Flag1==FALSE){
 			LED_TOGGLE(LED0);
 			Buzzer_ON();
 			Flag1 = TRUE;
@@ -116,9 +117,11 @@ int main ()
 		}else if(DIO_READ_LEVEL(DIO_PORTD, DIO_PIN2)==LOW && Flag3==TRUE){
 			Flag3=FALSE;
 			_delay_ms(10);
-		}
+		}*/
 		//Block3End
+
 	}
+
 
 	return 0;
 }

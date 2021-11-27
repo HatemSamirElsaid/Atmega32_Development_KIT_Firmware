@@ -9,7 +9,6 @@
 #define HAL_H_
 
 #include "HAL/LED.h"
-#include "HAL/Button.h"
 #include "HAL/Buzzer.h"
 
 #endif /* HAL_H_ */
