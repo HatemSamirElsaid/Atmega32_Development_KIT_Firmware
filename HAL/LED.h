@@ -12,6 +12,7 @@
 #include "LED_Types.h"
 #include "LED_Config.h"
 
+//LED Module Functions prototypes.
 void LED_Init(LED_ID);
 void LED_ON(LED_ID);
 void LED_OFF(LED_ID);

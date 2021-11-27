@@ -30,6 +30,7 @@ int main ()
 	//Block2End
 
 
+
 	//Block4Start	HAL Button
 	Button_Init(BUTTON0);//Button0
 	Button_Init(BUTTON1);//Button1
@@ -43,7 +44,6 @@ int main ()
 	Boolean Flag2 =FALSE;
 	Boolean Flag3 =FALSE;
 	//Block4End
-
 	while (1)
 	{
 		//Block1Start	MCAL
@@ -119,6 +119,7 @@ int main ()
 		}
 		//Block4End
 	}
+
 
 	return 0;
 }
